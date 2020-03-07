@@ -74,10 +74,8 @@ public class App {
 			int last = n-1;
 			while(start < last) {
 				int temp = a[i][start];
-				a[i][start] = a[i][last];
-				a[i][last] = temp;
-				start++;
-				last--;
+				a[i][start++] = a[i][last];
+				a[i][last--] = temp;
 			}
 		}
 	}
@@ -101,3 +99,9 @@ The above implementation have Runtime complexity of O(n^2) and space complexity 
 Runtime Complexity = O(n^2)
 Space Complexity   = O(1)
 ```
+
+# Key Points :
+Transpose a square matrix and reversing the row elements
+
+## Follow Up :
+Rotate a 2D matrix by 90 degree Anti clockwise (Answer :  Reverse and Transpose)
