@@ -101,7 +101,7 @@ Space Complexity   = O(1)
 ```
 
 # Key Points :
-Transpose a square matrix and reversing the row elements
+Transpose a square matrix and reversing the row elements. While transposing the matrix, remember that in second for loop j start from i and not from 0.
 
 ## Follow Up :
 Rotate a 2D matrix by 90 degree Anti clockwise (Answer :  Reverse and Transpose)
