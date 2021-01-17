@@ -100,7 +100,7 @@ Runtime Complexity = O(n^2)
 Space Complexity   = O(1)
 ```
 
-# Reverse a row of the matrix
+# Alternate approach : Reverse a row of the matrix
 ```
 private static void reverseRow(int[][] matrix) {
       int rows = matrix.length;
