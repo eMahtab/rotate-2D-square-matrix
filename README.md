@@ -100,6 +100,21 @@ Runtime Complexity = O(n^2)
 Space Complexity   = O(1)
 ```
 
+# Reverse a row of the matrix
+```
+private static void reverseRow(int[][] matrix) {
+      int rows = matrix.length;
+      int cols = matrix[0].length;
+        for(int i = 0; i < rows; i++) {
+            for(int j = 0; j < cols /2; j++) {
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[i][cols-j-1];
+                matrix[i][cols-j-1] = temp;
+            }
+        }
+}	
+```
+
 # Key Points :
 Transpose a square matrix and reversing the row elements. While transposing the matrix, remember that in second for loop j start from i and not from 0.
 
