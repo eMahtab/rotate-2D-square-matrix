@@ -101,7 +101,7 @@ Space Complexity   = O(1)
 ```
 
 # Alternate approach : Reverse a row of the matrix
-```
+```java
 private static void reverseRow(int[][] matrix) {
       int rows = matrix.length;
       int cols = matrix[0].length;
